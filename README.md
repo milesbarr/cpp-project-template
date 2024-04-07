@@ -1,3 +1,3 @@
 # C++ Project Template
 
-A modern, cross-platform C++ project template utilizing CMake, VS Code, Clang-Format, and GoogleTest.
+Use the project template to get started on a new C++ project.
