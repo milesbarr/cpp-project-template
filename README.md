@@ -1,8 +1,8 @@
 # C++ Project Template
 
-Use this template to get started on a new C++ project.
+Use this template to starts a new C++ project.
 
-Includes setup for:
+Already set up for:
 1. [Development Containers](https://containers.dev)
 2. [CMake](https://cmake.org)
 3. [GoogleTest](https://github.com/google/googletest)
