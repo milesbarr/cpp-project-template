@@ -2,7 +2,7 @@
 	"name": "C++ with CMake",
 	"image": "mcr.microsoft.com/vscode/devcontainers/cpp",
 	"features": {
-        "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
 			"packages": "cmake"
 		}
 	},
@@ -11,18 +11,18 @@
 			"extensions": [
 				"ms-vscode.cpptools",
 				"twxs.cmake",
-		        "ms-vscode.cmake-tools",
+				"ms-vscode.cmake-tools",
 				"DavidSchuldenfrei.gtest-adapter"
 			],
-            "settings": {
-                "cmake.configureOnOpen": true,
-                "search.exclude": {
-                    "third_party": true
-                },
-                "files.exclude": {
-                    "third_party": true
-                }
-            }
+			"settings": {
+				"cmake.configureOnOpen": true,
+				"search.exclude": {
+					"third_party": true
+				},
+				"files.exclude": {
+					"third_party": true
+				}
+			}
 		}
 	}
 }
