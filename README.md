@@ -1,59 +1,52 @@
 # C++ Project Template
 
-A modern C++ project template with a robust development environment and best
-practices built-in.
+A modern, opinionated C++ project template designed to help you quickly start
+your next project.
 
 ## Features
 
-- [Development Containers](https://containers.dev) for consistent development
-  environments
-- [CMake](https://cmake.org) build system
-- [GoogleTest](https://github.com/google/googletest) for unit testing
-- [Clang-Format](https://clang.llvm.org/docs/ClangFormat.html) for code
-  formatting
+- Configured for [Visual Studio Code](https://code.visualstudio.com).
+- Consistent development environments with
+  [Development Containers](https://containers.dev).
+  environments.
+- Build system with [CMake](https://cmake.org).
+- Unit testing with [GoogleTest](https://github.com/google/googletest).
+- Code formatting with
+  [Clang-Format](https://clang.llvm.org/docs/ClangFormat.html).
 
 ## Project Structure
 
 ```
 .
-├── src/           # Source files
-├── test/          # Test files
-├── third_party/   # External dependencies
-├── .devcontainer/ # Development container configuration
-├── .github/       # GitHub Actions workflows
-└── CMakeLists.txt # CMake build configuration
+├── src/          # Source files
+├── test/         # Test files
+└── third_party/  # External dependencies
 ```
 
 ## Getting Started
 
 ### Prerequisites
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [VS Code](https://code.visualstudio.com) with the
-  [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
-  extension
 - Git
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [Visual Studio Code](https://code.visualstudio.com)
+- [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 ### Development Setup
 
-1. Clone this repository:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cpp-project-template.git
+   git clone https://github.com/milesbarr/cpp-project-template.git
    cd cpp-project-template
    ```
-
 2. Initialize and update submodules:
    ```bash
    git submodule update --init --recursive
    ```
-
-3. Open in VS Code:
-   ```bash
-   code .
-   ```
-
-4. When prompted, click "Reopen in Container" to start development in the
-   containerized environment.
+2. Launch [Visual Studio Code](https://code.visualstudio.com) and open the
+   project folder.
+4. When prompted, click "Reopen in Container"
+5. Start coding!
 
 ### Building the Project
 
