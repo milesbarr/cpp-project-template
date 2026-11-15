@@ -1,4 +1,4 @@
-file(GLOB SRCS *.h *.cpp)
+file(GLOB_RECURSE SRCS CONFIGURE_DEPENDS *.h *.cpp)
 add_executable(${CMAKE_PROJECT_NAME}_benchmark ${SRCS})
 target_compile_features(${CMAKE_PROJECT_NAME}_benchmark PRIVATE cxx_std_20)
 target_compile_options(${CMAKE_PROJECT_NAME}_benchmark PRIVATE
