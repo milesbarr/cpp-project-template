@@ -15,17 +15,7 @@
 				"ms-vscode.cmake-tools",
 				"DavidSchuldenfrei.gtest-adapter",
 				"imrichardcole.benchmark-vscode"
-			],
-			"settings": {
-				"cmake.configureOnOpen": true,
-				"search.exclude": {
-					"third_party": true
-				},
-				"files.exclude": {
-					"third_party": true
-				},
-				"benchmark.binaries-directory": "build/benchmarks"
-			}
+			]
 		}
 	}
 }
