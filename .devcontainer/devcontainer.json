@@ -12,7 +12,8 @@
 				"ms-vscode.cpptools",
 				"twxs.cmake",
 				"ms-vscode.cmake-tools",
-				"DavidSchuldenfrei.gtest-adapter"
+				"DavidSchuldenfrei.gtest-adapter",
+				"imrichardcole.benchmark-vscode"
 			],
 			"settings": {
 				"cmake.configureOnOpen": true,
@@ -21,7 +22,8 @@
 				},
 				"files.exclude": {
 					"third_party": true
-				}
+				},
+				"benchmark.binaries-directory": "build/benchmarks"
 			}
 		}
 	}

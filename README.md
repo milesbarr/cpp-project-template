@@ -11,6 +11,7 @@ your next project.
   environments.
 - Build system with [CMake](https://cmake.org).
 - Unit testing with [GoogleTest](https://github.com/google/googletest).
+- Benchmarking with [Google Benchmark](https://github.com/google/benchmark).
 - Code formatting with
   [Clang-Format](https://clang.llvm.org/docs/ClangFormat.html).
 
