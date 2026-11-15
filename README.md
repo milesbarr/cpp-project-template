@@ -40,14 +40,10 @@ your next project.
    git clone https://github.com/milesbarr/cpp-project-template.git
    cd cpp-project-template
    ```
-2. Initialize and update submodules:
-   ```bash
-   git submodule update --init --recursive
-   ```
 2. Launch [Visual Studio Code](https://code.visualstudio.com) and open the
    project folder.
-4. When prompted, click "Reopen in Container"
-5. Start coding!
+3. When prompted, click "Reopen in Container"
+4. Start coding!
 
 ### Building the Project
 

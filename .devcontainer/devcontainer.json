@@ -6,6 +6,7 @@
 			"packages": "cmake"
 		}
 	},
+	"postCreateCommand": "git submodule update --init --recursive",
 	"customizations": {
 		"vscode": {
 			"extensions": [
